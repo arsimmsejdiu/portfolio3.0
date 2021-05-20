@@ -1,0 +1,18 @@
+@import './layouts/main.scss';
+@import './layouts/form.scss';
+@import './layouts/scroll.scss';
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #6e00ff;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
