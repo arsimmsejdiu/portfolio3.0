@@ -3,7 +3,11 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
 
+import postRoutes from "./Routes/posts.js";
+
 const app = express();
+
+app.use("/posts", postRoutes);
 
 //setup app
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
@@ -29,4 +33,4 @@ mongoose
     console.log(error.message);
   });
 
-  mongoose.set('useFindAndModify', false)
+mongoose.set("useFindAndModify", false);
