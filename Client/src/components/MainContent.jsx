@@ -65,6 +65,7 @@ const MainContent = () => {
   useEffect(() => {
     heroAnimation(completeAnimation);
   });
+  
   return (
     <div>
       <Hero />
