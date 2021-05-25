@@ -16,9 +16,8 @@ const Portfolio = () => {
       <div class="portfolio-container transition3">
         <div class="portfolio-left">
           <div class="inner">
-            <p class="subtitle">Slack Clone App</p>
-
             <p class="featured-title">slack-clone-app.netlify.app</p>
+            <p class="subtitle">#Slack Clone App</p>
             <p class="featured-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reprehenderit sint, molestias qui nihil accusamus praesentium vel

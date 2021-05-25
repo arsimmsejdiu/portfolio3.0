@@ -6,7 +6,6 @@ import instagram from "../images/instagram.png";
 import cv from "../images/cv.svg";
 
 const Header = () => {
-
   return (
     <div class="nav-container">
       <header>

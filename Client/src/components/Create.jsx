@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import gsap from "gsap";
-import react from "../images/atom.svg";
+//import react from "../images/atom.svg";
+import slack from "../images/slack-features.jpg";
 import Message from "./Message";
 
 let tl = gsap.timeline();
@@ -76,21 +77,32 @@ const Create = () => {
   return (
     <div className="hero">
       <div className="content">
-      <div className="skills-container">
-        <ul>
-          <li className="transition2">
-            <div className="icon-container one">
-              <img src={react} alt="UI/UX Icon" />
-            </div>
-            <p className="skill-title">ReactJS</p>
-            <p className="featured-desc skill-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Asperiores, odit?
-            </p>
-          </li>
-        </ul>
-      </div>
-        
+        <div className="skills-container">
+          <ul>
+            <li className="transition2">
+              <div class="portfolio-container transition3">
+                <div class="portfolio-left">
+                  <div class="inner">
+                    <p class="featured-title">Slack Clone App</p>
+                    <p class="subtitle">#Slack Clone App</p>
+                    <p class="featured-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit sint, molestias qui nihil accusamus
+                      praesentium vel tenetur quisquam quas rem.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://slack-clone-app.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={slack} alt="Fretastic" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <Message />
     </div>
