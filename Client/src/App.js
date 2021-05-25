@@ -5,6 +5,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import MainContent from './components/MainContent';
+import Create from './components/Create';
 //import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={MainContent}/>
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/create" component={Create} />
       </Switch>
       {/* <Footer /> */}
     </div>
