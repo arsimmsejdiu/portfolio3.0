@@ -10,7 +10,7 @@ const Portfolio = () => {
     <section id="work" className="portfolio">
       <div className="inner bottom transition2">
         <a href="/" className="featured-title">
-          My Pojects
+          My Projects
         </a>
         <p className="subtitle">/ All My Pojects With Live Link /</p>
       </div>
